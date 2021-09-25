@@ -1,0 +1,116 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.clear-fix{
+    clear: both;
+    float: none;
+}
+
+/* css for menu */
+
+.nav-item a{
+    color: #ff6b81 !important;
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    color: #ff4757 !important;
+}
+
+/* css for search */
+
+.search-food{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 6% 0;
+}
+
+.search-food input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.button{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.button-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+
+.button-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+
+/* css for explore food */
+.img-curve{
+    border-radius: 15px ;
+}
+
+.explore-food{
+    padding: 4% 0;
+}
+
+.explore-food .container-fluid .box{
+    padding: 4% 0;
+}
+
+/* .ms-md{
+    margin-left: 20% !important;
+} */
+
+
+.float-text{
+    bottom: 50px ;
+    left: 40%;
+}
+
+.white-text{
+    color:white;
+}
+
+
+.food-menu{
+    background-color: lightgray;
+}
+
+
+.desc-color {
+    font-size: 0.9rem ;
+    color: gray;
+    font-weight: bold;
+}
+
+/* css for social media */
+.social-media ul li{
+    display:  inline;
+    padding: 1%;
+}
+
+/* css for explore food - foods */
+
+.explore-food .resize-this{
+    width: 400px;
+}
+
